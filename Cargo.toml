@@ -1,0 +1,13 @@
+[package]
+name = "car-mirror-test"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+reqwest = "0.12.5"
+car-mirror = "0.1.0"
+car-mirror-axum = "0.1.0"
+car-mirror-reqwest = "0.1.0"
+anyhow = "1.0.86"
+tokio = {version = "1.38.0", features = ["full"] }
+wnfs-common = "0.2.0"
